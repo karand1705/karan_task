@@ -1,0 +1,11 @@
+  108  yum install git
+  109  mkdir task
+  110  cp a.txt task/
+  111  cd task
+  112  git init
+  113  git add a.txt 
+  116  git config --global user.name "Karan Dewani"
+  117  git config --global user.email "dewani1705@gmail.com"
+  119  git commit -m "first commit"
+  120  git remote add origin https://github.com/karand1705/karan_task.git
+  121  git push -u origin master
